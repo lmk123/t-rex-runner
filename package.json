@@ -1,0 +1,27 @@
+{
+  "name": "t-rex-runner",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-rex-runner.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --open --config build/webpack.dev.config.js",
+    "build": "webpack --config build/webpack.build.config.js",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "html-loader": "^0.4.3",
+    "postcss-loader": "^0.9.1",
+    "autoprefixer": "^6.3.6",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack": "^1.12.14"
+  },
+  "author": "Mingkai Li <me@limingkai.cn>",
+  "bugs": {
+    "url": "https://github.com/lmk123/t-rex-runner/issues"
+  },
+  "homepage": "https://github.com/t-rex-runner#readme"
+}

@@ -1,0 +1,44 @@
+/* Copyright 2014 The Chromium Authors. All rights reserved.
+   Use of this source code is governed by a BSD-style license that can be
+   found in the LICENSE file. */
+
+.interstitial-wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.runner-container {
+  height: 150px;
+  max-width: 600px;
+  overflow: hidden;
+  width: 44px;
+}
+
+.runner-canvas {
+  height: 150px;
+  max-width: 600px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.inverted {
+  transition: -webkit-filter 1.5s cubic-bezier(0.65, 0.05, 0.36, 1), background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+  will-change: -webkit-filter, background-color;
+  -webkit-filter: invert(100%);
+  background-color: #000;
+}
+
+.controller {
+  background: rgba(247, 247, 247, .1);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+#offline-resources {
+  display: none;
+}
