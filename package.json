@@ -1,10 +1,11 @@
 {
   "name": "t-rex-runner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmk123/t-rex-runner.git"
   },
+  "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --open --config build/webpack.dev.config.js",
     "build": "webpack --config build/webpack.build.config.js",
