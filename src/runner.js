@@ -253,7 +253,7 @@ Runner.prototype = {
    * Load and decode base 64 encoded sounds.
    */
   loadSounds: function () {
-    if ( !IS_IOS ) {
+    if ( !IS_IOS && window.AudioContext) {
       this.audioContext = new AudioContext();
 
       var resourceTemplate =
