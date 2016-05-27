@@ -6,5 +6,5 @@ const Runner = require( './runner' );
 module.exports = function ( element, config ) {
   var _element = typeof element === 'string' ? document.querySelector( element ) : element;
   _element.classList.add( 'interstitial-wrapper' );
-  new Runner( _element, config );
+  return new Runner( _element, config );
 };
