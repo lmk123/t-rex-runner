@@ -28,7 +28,7 @@ That's all:
 
 鼠标右键点击下面的链接并选择"链接另存为"可以下载 runner.js:
 
-https://npmcdn.com/t-rex-runner/dist/runner.js
+https://unpkg.com/t-rex-runner/dist/runner.js
 
 ### 通过 NPM 安装
 
